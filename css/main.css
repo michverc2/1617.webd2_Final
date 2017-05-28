@@ -258,6 +258,9 @@ nav > ul li ul li > a {
 .stick{
 	margin-top: -10px;
 }
+.huge{
+	width: 300%;
+}
 
 	label {
   		display: block;
