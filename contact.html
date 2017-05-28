@@ -3,105 +3,97 @@
 
 <head>
   <title>Homepage Musichouse</title>
- 
+
   <meta charset="UTF-8">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/main.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-
 </head>
 
 <body>
- 
-    <header>
-      <div class="inner">
-        <nav>
-          <a href="index.html" class="logo">Musichouse</a>
-          <input type="checkbox" id="nav"/><label for="nav"></label>
-          
-          <ul>
-            <li><a href="about.html">About</a></li>       
-            <li><a href="connect.html">Connect</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      
+  <header>
+    <div class="inner">
+      <nav>
+        <a href="index.html" class="logo">Musichouse</a>
+        <input type="checkbox" id="nav" /><label for="nav"></label>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="connect.html">Connect</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="sf-grid__container main">
+    <div class="sf-grid__row first width">
+      <div class="sf-grid__column-8 article">
+        <h2>Contact</h2>
+        <p>tel: (+32)493 54 36 50 <br> e-mail: vercruysse.michiel@hotmail.com</p>
       </div>
-    </header>  
-
-<div class="sf-grid__container main">
-<div class="sf-grid__row first width">
-        <div class="sf-grid__column-8 article">
-          <h2>Contact</h2>
-          <p>tel: (+32)493 54 36 50 <br> e-mail: vercruysse.michiel@hotmail.com</p>
-        </div>
-   </div>
-   
-      <div class="sf-grid__row responsiveimgextra">
-        <div class="sf-grid__column-4 article mappadding">
-        <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="310" id="gmap_canvas" src="https://maps.google.com/maps?q=Music House Daan Smit, Akerstraat, Maastricht, Nederland, &t=p&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://wpicus.com"></a></div><style>.mapouter{overflow:hidden;height:310px;width:100%;}.gmap_canvas {background:none!important;height:310px;width:100%;}</style>
-        </div>
+    </div>
+    <div class="sf-grid__row responsiveimgextra">
+      <div class="sf-grid__column-4 article mappadding">
+        <div class="mapouter">
+          <div class="gmap_canvas"><iframe width="100%" height="310" id="gmap_canvas" src="https://maps.google.com/maps?q=Music House Daan Smit, Akerstraat, Maastricht, Nederland, &t=p&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <a
+              href="https://wpicus.com"></a>
+          </div>
+          <style>
+            .mapouter {
+              overflow: hidden;
+              height: 310px;
+              width: 100%;
+            }
+            
+            .gmap_canvas {
+              background: none!important;
+              height: 310px;
+              width: 100%;
+            }
+          </style>
         </div>
       </div>
-        <div class="sf-grid__row first width extra">
-        <div class="sf-grid__column-8 article clear">
-          <h2>Social Media</h2>
-          <a href="https://www.facebook.com" class="fa fa-facebook"></a>
-          <a href="https://www.twitter.com" class="fa fa-twitter"></a>
-          <a href="https://plus.google.com" class="fa fa-google"></a>
-          <a href="https://www.instagram.com" class="fa fa-instagram"></a>
-            </div>
-        </div>
-        </div>
-   </div>
-</div>
-
-
-
-
-<div id="form-main">
-  <div id="form-div">
-    <form class="form" id="form1">
-      
-      <p class="name">
-        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
-      </p>
-      
-      <p class="email">
-        <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
-      </p>
-      
-      <p class="text">
-        <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
-      </p>
-      
-      
-      <div class="submit">
-        <input type="submit" value="SEND" id="button-blue"/>
-        <div class="ease"></div>
+    </div>
+    <div class="sf-grid__row first width extra">
+      <div class="sf-grid__column-8 article clear">
+        <h2>Social Media</h2>
+        <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+        <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+        <a href="https://plus.google.com" class="fa fa-google"></a>
+        <a href="https://www.instagram.com" class="fa fa-instagram"></a>
       </div>
-    </form>
+    </div>
+  </div>
   </div>
 
-
-
-
-
-
-
-
-
-  <footer>
-    <div class="footer">
-      Musichouse copyright 2017
+  <div id="form-main">
+    <div id="form-div">
+      <form class="form" id="form1">
+        <p class="name">
+          <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+        </p>
+        <p class="email">
+          <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+        </p>
+        <p class="text">
+          <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+        </p>
+        <div class="submit">
+          <input type="submit" value="SEND" id="button-blue" />
+          <div class="ease"></div>
+        </div>
+      </form>
     </div>
-  </footer>
 
+    <footer>
+      <div class="footer">
+        Musichouse copyright 2017
+      </div>
+    </footer>
 </body>
 
 </html>
