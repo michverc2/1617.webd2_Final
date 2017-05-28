@@ -1,0 +1,656 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+	width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  min-height: 100%;
+  padding-top: 10px;
+}
+
+
+
+
+
+/*NEW*/
+h2{
+  color: #252839;
+	margin: 10px 0px;
+}
+
+li {
+  padding: 20px;
+  display: inline;
+}
+
+p {
+  line-height: 1,5;
+  text-align: left;
+  width: 90%;
+	color: #fff;
+}
+.text, .email, .name{
+	width: 100%;
+}
+img{
+  width: 100%;
+	margin-bottom: 0;
+}
+
+a,
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  margin: 0 0 100px;
+  background: #fafafa;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: left;
+	padding-top: 10px;
+  background-color: #252839;
+  height: 100px;
+  z-index: 9999;
+}
+
+
+
+.titel {
+  float: left;
+  color: inherit;
+  font-size: 2em;
+}
+
+.footer {
+  background-color: #f2b632;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 20px;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  font-size: 10px;
+	color: whitesmoke;
+	padding: 5px;
+	border-top: 2px solid #252839;
+}
+
+/* start commented backslash hack \*/
+
+* html .clearfix {
+  height: 1%;
+}
+
+.clearfix {
+  display: block;
+}
+
+
+/* close commented backslash hack */
+.header {
+  margin-bottom: 0;
+  height: 6%;
+  width: 100%;
+}
+
+
+.article{
+
+	background-color: #f2b632;
+	margin: 5px 5px;
+	float: left;
+}
+
+
+
+.main {
+  background-color: #b5b5b7;
+	padding-top: 100px;
+	height: auto;
+	overflow: hidden;
+	padding: 30px;
+
+}
+.nocolor{
+	background-color: #fafafa;
+}
+
+.mappadding{
+	padding: 5px 5px;
+}
+.first{
+	margin-top: 80px;
+}
+.clear{
+	clear: both;
+	position: relative;
+	top: -200px;
+}
+
+
+
+
+/*EXtra new*/
+
+body {
+	  font-family: sans-serif;
+}
+
+.inner {
+	  max-width: 1000px;
+	  margin: 0 auto;
+	  padding: 0px 20px;
+	  position: relative;
+}
+
+.logo {
+	  text-decoration: none;
+	  color: #f2b632;
+	  font-weight: 700;
+	  font-size: 40px;
+	  line-height: 80px;
+}
+
+
+
+/*Navigation-Responsive*/
+
+nav > ul {
+  	float: right;
+}
+
+nav > ul > li {
+  	text-align: center;
+	  line-height: 20px;
+	  margin-left: 0px;
+		transition:  all 0.5s ease;
+}
+
+
+
+nav ul li:hover {
+	  cursor: pointer;
+	  position: relative;
+}
+nav ul li:hover > ul {
+  	display: block;
+}
+nav ul li:hover > a {
+	  color: #f2b632;
+}
+nav > ul > li > a {
+	  cursor: pointer;
+	  display: block;
+  	outline: none;
+  	width: 100%;
+	  text-decoration: none;
+}
+
+nav > ul > li {
+  	float: left;
+}
+
+nav > ul li ul {
+  	display: none;
+  	position: absolute;
+  	left: 0;
+	  top: 100%;
+  	width: 100%;
+	  z-index: 2000;
+}
+nav > ul li ul li > a {
+	  text-decoration: none;
+}
+
+*[type="checkbox"], label {
+	  display: none;
+}
+
+@media screen and (max-width: 785px) {
+	nav ul {
+		  display: none;
+	}
+
+	label {
+  		display: block;
+  		background: #f2b632;
+		  width: 40px;
+  		height: 40px;
+      border-radius: 5px;
+  		cursor: pointer;
+		  position: absolute;
+		  right: 20px;
+  		top: 18px;
+	}
+  
+label:after{
+  content:'';
+  display: block;
+  width: 30px;
+  height: 5px;
+  background: #252839;
+  margin: 7px 5px;
+  box-shadow: 0px 10px 0px #252839, 0px 20px 0px #252839;
+}
+
+	*[type="checkbox"]:checked ~ ul {
+  		display: block;
+  		z-index: 9999;
+  		position: absolute;
+		  width: 100%;
+		  left: 0px;
+      right: 0px;
+	}
+
+  nav ul{
+      padding: 0;
+      margin: 0;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      background-color: #b5b5b7;
+}
+
+	nav a {
+		  color: #b5b5b7;
+	}
+
+	nav ul li {
+		  display: block;
+  		float: none;
+  		width: 100%;
+  		text-align: left;
+  		background: #b5b5b7;
+      text-align: center;
+      line-height: 0.5;
+      border-radius: 10px;      
+	}
+
+	nav > ul > li {
+  		margin-left: 0px;
+	}
+
+  
+	nav > ul li ul {
+		  display: block;
+  		position: relative;
+  		width: 100%;
+		  z-index: 9999;
+		  float: none;
+	}
+h1 {
+	  font-size: 26px;
+}
+}
+
+/*Navigation-Responsive*/
+
+
+#feedback-page{
+	text-align:center;
+}
+
+#form-main{
+	width:100%;
+	float:left;
+	padding-top:0px;
+}
+
+#form-div {
+	background-color:#252839;
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:50px;
+	width: 450px;
+	float: left;
+	left: 55%;
+	position: absolute;
+  margin-top:30px;
+	margin-left: -260px;
+	margin-bottom: 50px;
+  -moz-border-radius: 7px;
+	border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+
+.feedback-input {
+	color:#252839;
+	font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus{
+	background: #fff;
+	box-shadow: 0;
+	border: 3px solid #f2b632;
+	color: #f2b632;
+	outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+.focused{
+	border:#f2b632 solid 3px;
+}
+
+/* Icons ---------------------------------- */
+#name{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#name:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#comment{
+	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
+}
+
+#button-blue{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float:left;
+	width: 100%;
+	border: #fbfbfb solid 4px;
+	cursor:pointer;
+	background-color: #f2b632;
+	color:white;
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+#button-blue:hover{
+	background-color: rgba(0,0,0,0);
+	color: #f2b632;
+}
+	
+.submit:hover {
+	color: #3498db;
+}
+	
+.ease {
+	width: 0px;
+	height: 74px;
+	background-color: #fbfbfb;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	-ms-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:white;
+}
+
+@media only screen and (max-width: 580px) {
+	#form-div{
+		left: 5%;
+		margin-right: 3%;
+		width: 88%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+}
+#form-main{
+	clear: both;
+	float:left;
+	padding-top:0px;
+}
+
+
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/*our team css*/
+@import 'https://fonts.googleapis.com/css?family=Raleway:100,600';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300';
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: #999;
+  background-color: #fff;
+}
+
+h1,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 20px 0;
+  text-transform: none;
+  color: rgba(254, 82, 76, 1);
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+a:link,
+a:active,
+a:visited{
+  color:rgba(255,255,255,1);
+}
+
+a:hover{
+  color:rgba(255,255,255,0.6);
+}
+
+.gray {
+  color: #a5a5a5;
+}
+
+.team-member {
+  margin: 15px 0;
+  padding: 0;
+}
+
+.team-member figure {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.team-member figure img {
+  min-width: 100%;
+}
+
+.team-member figcaption p {
+  font-size: 16px;
+}
+
+.team-member figcaption ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.team-member figcaption ul {
+  visibility: visible;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.team-member figcaption ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.team-member h4 {
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+.team-member figcaption {
+  padding: 50px;
+  color: transparent;
+  background-color: transparent;
+  position: absolute;
+  z-index: 996;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.team-member figure:hover figcaption {
+  visibility: visible;
+  color: #fff;
+  background: rgba(230, 78, 62, 0.9);
+  /* Primary color, can be changed via colors.css */
+  
+  height: 100%;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.team-member figure:hover figcaption ul li a:hover {
+  color: rgba(49, 49, 49, .97);
+}
+
+.team-member figure img {
+  -webkit-transform: scale(1) rotate(0) translateY(0);
+  -moz-transform: scale(1) rotate(0) translateY(0);
+  -o-transform: scale(1) rotate(0) translateY(0);
+  -ms-transform: scale(1) rotate(0) translateY(0);
+  transform: scale(1) rotate(0) translateY(0);
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.team-member figure:hover img {
+  -webkit-transform: scale(1.1) rotate(1deg) translateY(12px);
+  -moz-transform: scale(1.1) rotate(1deg) translateY(12px);
+  -o-transform: scale(1.1) rotate(1deg) translateY(12px);
+  -ms-transform: scale(1.1) rotate(1deg) translateY(12px);
+  transform: scale(1.1) rotate(1deg) translateY(12px);
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+/*our team css*/
