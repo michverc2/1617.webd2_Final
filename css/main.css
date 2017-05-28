@@ -230,10 +230,31 @@ nav > ul li ul li > a {
 	  display: none;
 }
 
-@media screen and (max-width: 785px) {
+@media screen and (max-width: 800px) {
 	nav ul {
 		  display: none;
 	}
+	.sf-grid__row{
+	clear: both;
+	width: 100%;
+}
+.responsiveimg{
+	float:left;
+	clear: both;
+	width: 200%;
+}
+.responsiveimgextra{
+	float:left;
+	clear: both;
+	width: 300%;
+}
+.width{
+	width: 150%;
+}
+.extra{
+	margin-top: 725px;
+	width: 150%;
+}
 
 	label {
   		display: block;
@@ -469,13 +490,13 @@ input:focus, textarea:focus {
 		padding-left: 3%;
 		padding-right: 3%;
 	}
-}
+
 #form-main{
 	clear: both;
 	float:left;
 	padding-top:0px;
 }
-
+}
 
 
 .fa {
